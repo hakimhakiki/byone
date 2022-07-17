@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Buttons</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <!-- Style libraries -->
+        <link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="vendors/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/font-face.css">
+    </head>
+    <body>
+        <div id="header">
+            <!-- Navbar settings -->
+            <nav class="navbar navbar-dark navbar-expand-md">
+                <a class="navbar-brand" href="#">byone</a>
+                <div class="navbar-text">v1.0</div>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#thisNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="thisNavbar">
+                    <div class="navbar-nav mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-bell"> <span class="badge badge-pill badge-success">3</span></i> </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><b>Hakim</b> 20/11/2018 <br> Change properties</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><b>Hakim</b> 20/11/2018 <br> Change properties</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><b>Hakim</b> 20/11/2018 <br> Change properties</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item text-center" href="#"><b>More</b></a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-user"></i> </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="fa fa-edit"></i> Change Theme</a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-cog"></i> Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Aside and Main contents -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 fr-sidebar">
+                    <aside class="list-group shadow-sm">
+                        <a class="list-group-item list-group-item-action" href="index.html"><i class="fa fa-tachometer"></i> Dashboard</a>
+                        <a class="list-group-item list-group-item-action" href="tables.html"><i class="fa fa-table"></i> Tables</a>
+                        <a class="list-group-item list-group-item-action dropdown-toggle active" data-toggle="collapse" href="#drop1"><i class="fa fa-th-large"></i> UI Components</a>
+                        <div class="collapse" id="drop1">
+                            <a class="list-group-item list-group-item-action active" href="#">Buttons</a>
+                            <a class="list-group-item list-group-item-action" href="#">Alerts</a>
+                            <a class="list-group-item list-group-item-action" href="#">Grid</a>
+                        </div>
+                        <a class="list-group-item list-group-item-action dropdown-toggle" data-toggle="collapse" href="#drop2"><i class="fa fa-sitemap"></i> Multidrops</a>
+                        <div class="collapse" id="drop2">
+                            <a class="list-group-item list-group-item-action" href="#">Level 1</a>
+                            <a class="list-group-item list-group-item-action" href="#">Level 2</a>
+                            <a class="list-group-item list-group-item-action" href="#">Level 3</a>
+                            <a class="list-group-item list-group-item-action dropdown-toggle" data-toggle="collapse" href="#drop2_1">Second Level</a>
+                            <div class="collapse" id="drop2_1">
+                                <a class="list-group-item list-group-item-action" href="#">Level 1</a>
+                                <a class="list-group-item list-group-item-action" href="#">Level 2</a>
+                                <a class="list-group-item list-group-item-action" href="#">Level 3</a>
+                            </div>
+                        </div>
+                        <a class="list-group-item list-group-item-action" href="#"><i class="fa fa-bullhorn"></i> Contact Us</a>
+                    </aside>
+                </div>
+                <div class="col-md-10 fr-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn btn-default">Default</button>
+                                <button class="btn btn-primary">Primary</button>
+                                <button class="btn btn-secondary">Secondary</button>
+                                <button class="btn btn-success">Success</button>
+                                <button class="btn btn-info">Info</button>
+                                <button class="btn btn-warning">Warning</button>
+                                <button class="btn btn-danger">Danger</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn btn-outline-default">Default</button>
+                                <button class="btn btn-outline-primary">Primary</button>
+                                <button class="btn btn-outline-secondary">Secondary</button>
+                                <button class="btn btn-outline-success">Success</button>
+                                <button class="btn btn-outline-info">Info</button>
+                                <button class="btn btn-outline-warning">Warning</button>
+                                <button class="btn btn-outline-danger">Danger</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Script goes here -->
+            <script type="text/javascript" src="vendors/jquery/jquery-3.3.1.min.js"></script>
+            <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+        </body>
+    </html>

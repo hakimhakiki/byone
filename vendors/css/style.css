@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+    color: #384452;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "Roboto Condensed";
+}
+
+/* freeadmin navbar only */
+nav {
+    background-color: #3e3eff;
+}
+
+nav > .navbar-brand {
+    font-family: "Bebas Neue", "Arial";
+    font-size: 18pt;
+}
+
+/* freeadmin sidebar */
+.fr-sidebar, .fr-body{
+    padding: 1% 1% 1% 1%;
+}
+
+.fr-sidebar > aside{
+    width: 100%;
+}
+
+.fr-sidebar > aside > .active{
+    background-color: #3e3eff;
+}
+
+/* freeadmin login only */
+.fr-login > form > .btn{
+    width: 100%;
+}
+
+/* freeadmin button */
+.btn {
+    border-radius: 0;
+}
